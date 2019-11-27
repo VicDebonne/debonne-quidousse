@@ -1,14 +1,14 @@
 :root {
   --backgroundColor: #252330;
   --textColor: #ffffff;
-  --anotherColor: #E76963;
+  --secondColor: #E76963;
   --margin: 1.5rem;
   --fontFam: 'Roboto';
   --fontTitle: 500;
   --fontRegular: .8rem; /* 18px */
   --fontMedium: 1.25rem; /* 20px */
-  --fontBig: 1.75rem; /* 28px */
-  --fontNormal: 400;
+  --fontBig: 2rem; /* 28px */
+  --fontNormal: 100;
   --fontBold: 700;
   --alignCenter: center;
 }

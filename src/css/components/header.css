@@ -21,10 +21,10 @@ header{
 a{
   position: absolute;
   display: block;
-  width: 10rem;
+  width: 15rem;
   padding: 1rem 0;
   text-align: var(--alignCenter);
-  background-color: var(--anotherColor);
+  background-color: var(--secondColor);
   font-family: var(--fontFam);
   font-size: var(--fontRegular);
   font-weight: var(--fontNormal);
@@ -34,10 +34,10 @@ a{
   line-height: 1rem;
   text-decoration: none;
   border-radius: 10rem;
-  margin-left: calc(50% - 5rem);
+  margin-left: calc(50% - 7.5rem);
   bottom: 10rem;
 }
 
 .meerInfo{
-  color: var(--anotherColor);
+  color: var(--secondColor);
 }

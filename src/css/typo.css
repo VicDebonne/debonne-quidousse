@@ -14,6 +14,19 @@ p{
   margin: var(--margin);
   color: var(--textColor);
   width: 70%;
+  margin-left: calc(50% - 35%);
+  text-align: var(--alignCenter);
+  letter-spacing: .07rem;
+  line-height: 1rem;
+}
+
+label{
+  font-family: var(--fontFam);
+  font-size: var(--fontRegular);
+  font-weight: var(--fontNormal);
+  margin: auto;
+  color: var(--secondColor);
+  width: 70%;
   text-align: var(--alignCenter);
   letter-spacing: .07rem;
   line-height: 1rem;

@@ -1,0 +1,80 @@
+.address .loading{width: 11.1%;}
+.destination .loading{width: 22.2%;}
+.passengers .loading{width: 33.3%;}
+.when .loading{width: 44.4%;}
+.type .loading{width: 55.5%;}
+.temp .loading{width: 66.6%}
+.music .loading{width: 77.7%;}
+.friend .loading{width: 88.8%;}
+.color .loading{width: 100%;}
+
+section{
+  height: 100vh;
+  background-color: var(--backgroundColor);
+  padding-top: 5rem;
+  position: relative;
+}
+
+.loadbar{
+  position: relative;
+  width: 60%;
+  height: .5rem;
+  margin-left: calc(50% - 30%);
+  background-color: rgb(231, 231, 231);
+  border-radius: 10rem;
+  & > * { /* alles dat in deze div zit krijgt volgende styling: */
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--secondColor);
+    border-radius: 10rem;
+  }
+}
+
+.formSubmitStyle{
+  width: 65%;
+  margin-left: calc(50% - 32.5%);
+  margin-top: 5rem;
+}
+
+.textSubmit{
+  width: 100%;
+  border-bottom: .1rem solid var(--secondColor) !important;
+  border: none;
+  background-color: transparent;
+  display: block;
+  transition: ease .3s;
+  outline: none;
+  color: #fff;
+  padding: .2rem;
+  font-family: var(--fontFam);
+  font-size: var(--fontRegular);
+  font-weight: var(--fontNormal);
+  letter-spacing: .07rem;
+}
+
+.textSubmit[type=text]:focus {
+  border-bottom: .2rem solid #fff !important;
+}
+
+button{
+  margin-top: 3rem;
+  display: block;
+  width: 15rem;
+  padding: 1rem 0;
+  text-align: var(--alignCenter);
+  background-color: var(--secondColor);
+  font-family: var(--fontFam);
+  font-size: var(--fontRegular);
+  font-weight: var(--fontNormal);
+  color: var(--textColor);
+  text-align: var(--alignCenter);
+  letter-spacing: .07rem;
+  line-height: 1rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  margin-left: calc(50% - 7.5rem);
+  bottom: 10rem;
+  border: none;
+}
