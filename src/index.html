@@ -22,31 +22,37 @@
       <h1>Wat is uw adres?</h1>
       <p>Kies het adres waar<br>u opgepikt wilt worden.</p>
       <form action="later">
-        <div class="formSubmitStyle">
-          <label for="address">Adres</label>
-          <input type="text" name="address" id="address" class="textSubmit">
-        </div>
-        <button class="next-button" type="submit" name="next" value="">Volgende</button>
-      </form>
+      <div class="formSubmitStyle">
+        <label for="address">Adres</label>
+        <input type="text" name="address" id="address" class="textSubmit">
+      </div>
+      <button class="next-button" type="submit" name="next" value="">Volgende</button>
     </section>
 
     <section class="destination">
         <div class="loadbar"><div class="loading"></div></div>
         <h1>Bestemming?</h1>
         <p>Naar welke luchthaven moet<br>onze zelfrijdende taxi u brengen?</p>
-
+          <div class="formSubmitStyle">
+          <label for="airport">Luchthaven</label>
+          <input type="text" name="airport" id="airport" class="textSubmit">
+        </div>
+        <button class="next-button" type="submit" name="next" value="">Bevestigen</button>
+        <div class="previous-input"></div>
     </section>
 
     <section class="passengers">
       <div class="loadbar"><div class="loading"></div></div>
       <h1>Vrienden?</h1>
       <p>Met hoeveel passagiers wilt u gebruik<br>maken van Taxi Maxi?</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="when">
       <div class="loadbar"><div class="loading"></div></div>
       <h1>Wanneer?</h1>
       <p>Welke datum en welk uur wenst<br>u opgehaald te worden?</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="type">
@@ -59,29 +65,32 @@
       <div class="loadbar"><div class="loading"></div></div>
       <h1>Temperatuur?</h1>
       <p>Kies hier de temperatuur <br>van uw TM!</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="music">
       <div class="loadbar"><div class="loading"></div></div>
       <h1>Music maestro!</h1>
       <p>Geef hier de liedjes op die u wilt<br> horen tijdens uw rit!</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="friend">
       <div class="loadbar"><div class="loading"></div></div>
       <h1>TM uw vriend!</h1>
       <p>Wenst u een vriend in de auto? Dan biedt TM u de optie om onze taxi naar je dag te vragen!</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="color">
       <div class="loadbar"><div class="loading"></div></div>
       <h1>Final touch?</h1>
       <p>Welke kleur neonlampen wenst<br>u in The Seat?</p>
+      <div class="previous-input"></div>
     </section>
 
     <section class="overview">
-      <div class="loadbar"><div class="loading"></div></div>
-
+    </form>
     </section>
   </main>
 </body>
