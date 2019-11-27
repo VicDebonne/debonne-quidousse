@@ -15,7 +15,6 @@ p{
   color: var(--textColor);
   width: 70%;
   text-align: var(--alignCenter);
-  margin: auto;
   letter-spacing: .07rem;
   line-height: 1rem;
 }
