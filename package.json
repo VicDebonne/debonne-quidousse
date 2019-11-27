@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "dev": "./node_modules/.bin/webpack-dev-server --mode development",
     "prod": "rm -rf dist/ && webpack --mode production"
   },
   "browserslist": [
@@ -35,5 +35,5 @@
     "> 1%",
     "not dead"
   ],
-  "author": "VicDebonne <vic.debonne@student.howest.be>"
+  "author": "MaximQuidousse <maxim.quidousse@student.howest.be>"
 }

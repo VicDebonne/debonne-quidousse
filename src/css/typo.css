@@ -1,0 +1,21 @@
+h1{
+  font-family: var(--fontFam);
+  font-size: var(--fontBig);
+  font-weight: var(--fontBold);
+  margin: var(--margin);
+  color: var(--textColor);
+  text-align: var(--alignCenter);
+}
+
+p{
+  font-family: var(--fontFam);
+  font-size: var(--fontRegular);
+  font-weight: var(--fontNormal);
+  margin: var(--margin);
+  color: var(--textColor);
+  width: 70%;
+  text-align: var(--alignCenter);
+  margin: auto;
+  letter-spacing: .07rem;
+  line-height: 1rem;
+}
